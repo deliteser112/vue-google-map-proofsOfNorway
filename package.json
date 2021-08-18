@@ -1,0 +1,50 @@
+{
+  "name": "@vuetify-theme/zero-free",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "yarn serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "postversion": "node scripts/postversion.js"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-meta": "^2.3.3",
+    "vue-router": "^3.1.6",
+    "vuetify": "^2.3.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@vue/cli-plugin-babel": "^4.3.1",
+    "@vue/cli-plugin-eslint": "^4.3.1",
+    "@vue/cli-plugin-router": "~4.3.1",
+    "@vue/cli-service": "^4.3.1",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vuetify/vue-cli-plugin-preset-base": "~0.3.2",
+    "archiver": "^4.0.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-config-vuetify": "^0.6.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vuetify": "^1.0.0-beta.6",
+    "lodash": "^4.17.15",
+    "open": "^7.0.3",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "shelljs": "^0.8.4",
+    "vue-cli-plugin-vuetify": "^2.0.5",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.4.3",
+    "webfontloader": "^1.6.28",
+    "webpack": "^4.43.0"
+  }
+}
