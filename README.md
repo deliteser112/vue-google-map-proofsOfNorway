@@ -1,4 +1,4 @@
-# [Proofs Of World](https://store.vuetifyjs.com/products/zero-theme-pro)
+# [Proofs Of World]
 
 1) Interactive web-app for uploading most representative and user-ranked pictures/motifs/attractions/landmarks/see-worthies /specialties (i.e. food, drinks, car, clothes, cultural tradition, brands) displayed rolling within borders of cities, municipalities, regions, countries, continents, and world – depending on users zoom level. 
 2) Revenues from general ads until the critical volume of user masses attracts specific ads from travel industry actors. 
@@ -10,7 +10,7 @@
 - Install Yarn from the official [Yarn installation page](https://classic.yarnpkg.com/en/docs/install/#windows-stable).
 - Run `yarn install` to install the project's dependencies
 - Run `yarn serve` to start a local development server
-
+Cancel changes
 You can also run additional tasks such as
 
 - `yarn run build` to build your app for production
