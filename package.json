@@ -1,5 +1,5 @@
 {
-  "name": "@vuetify-theme/zero-free",
+  "name": "@vuetify-material/proofsofnorway",
   "version": "2.0.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,9 @@
     "postversion": "node scripts/postversion.js"
   },
   "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^4.7.3",
+    "@turf/turf": "^6.5.0",
+    "mapbox-gl": "^2.4.1",
     "vue": "^2.6.12",
     "vue-meta": "^2.3.3",
     "vue-router": "^3.1.6",

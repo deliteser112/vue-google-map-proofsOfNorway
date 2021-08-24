@@ -8,7 +8,7 @@
       height="80"
     >
       <base-img
-        :src="require('@/assets/logo.svg')"
+        :src="require('@/assets/images/logo.png')"
         class="mr-3 hidden-xs-only"
         contain
         max-width="46"
@@ -16,9 +16,9 @@
       />
 
       <base-img
-        :src="require(`@/assets/zero-logo-${$vuetify.theme.isDark ? 'dark' : 'light'}.svg`)"
+        :src="require(`@/assets/images/logo-${$vuetify.theme.isDark ? 'dark' : 'light'}.svg`)"
         contain
-        max-width="96"
+        max-width="180"
         width="100%"
       />
 
@@ -61,7 +61,8 @@
       drawer: null,
       items: [
         'Home',
-        'Pro',
+        'Map',
+        'Login',
       ],
     }),
   }

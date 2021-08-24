@@ -57,7 +57,7 @@
       },
       mobileSize: {
         type: String,
-        default: 'text-h4',
+        default: 'text-h5',
       },
       mobileBreakpoint: {
         type: [Number, String],

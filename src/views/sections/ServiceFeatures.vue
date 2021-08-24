@@ -1,6 +1,6 @@
 <template>
-  <base-section id="theme-features">
-    <base-section-heading title="Theme Features">
+  <base-section id="service-features">
+    <base-section-heading title="Service Features">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga.
     </base-section-heading>
 
@@ -32,17 +32,17 @@
     data: () => ({
       features: [
         {
-          title: 'Pixel Perfect Design',
+          title: 'NO MINUTES OF READING',
           icon: 'mdi-fountain-pen-tip',
         },
         {
-          title: 'Retina Ready',
+          title: 'Ease of use – all on one plate',
           icon: 'mdi-cellphone',
         },
         {
           color: 'primary',
           dark: true,
-          title: 'Easily Customizable',
+          title: 'Displays top-of-fact',
           icon: 'mdi-pencil-box-outline',
         },
         {

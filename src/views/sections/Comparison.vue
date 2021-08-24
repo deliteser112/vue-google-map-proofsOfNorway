@@ -1,15 +1,15 @@
 <template>
   <base-section
-    id="pro-features"
+    id="service-features"
   >
     <v-img
-      :src="require('@/assets/logo.svg')"
+      :src="require('@/assets/images/logo.png')"
       class="mx-auto mb-8"
       max-width="128"
     />
 
-    <base-section-heading title="Feature Comparison">
-      Get the PRO version of <strong>Zero</strong> and level up your theme<br>with additional components, pages, and Free updates.
+    <base-section-heading title="Service Comparison">
+      Easier to achieve critical mass the smaller the country is due to lower competition intensity and higher degree of inhabitants activity.
     </base-section-heading>
 
     <v-container>
@@ -25,12 +25,8 @@
             <thead>
               <tr>
                 <th />
-                <th class="text-body-1 font-weight-bold text-center">
-                  What's in the Demo?
-                </th>
-                <th class="text-body-1 font-weight-bold text-center">
-                  What's in the PRO version?
-                </th>
+                <th />
+                <th />
               </tr>
             </thead>
 
@@ -77,9 +73,9 @@
             elevation="16"
             class="mb-12"
           >
-            <base-img
+            <v-img
+              :src="require('@/assets/images/pricing.jpg')"
               max-width="100%"
-              src="https://cdn.vuetifyjs.com/store/themes/zero/pro.png"
             />
           </v-card>
 
@@ -87,10 +83,10 @@
             <base-btn
               :tile="false"
               color="primary"
-              href="https://store.vuetifyjs.com/products/zero-theme-pro/?ref=vtyd-pro-page-features"
+              href="#"
               rounded
             >
-              Buy Pro Now
+              Getting Start
 
               <v-icon right>
                 mdi-rocket
@@ -109,13 +105,11 @@
 
     data: () => ({
       features: [
-        ['Components', 5, '40+'],
-        ['Example Pages', 3, '10+'],
-        ['Vue CLI Support', true, true],
-        ['Bugfixes and Issues', false, true],
-        ['6 Months Free Updates', false, true],
-        ['Supports Vuetify', false, true],
-        ['Price', 'Free', '$59'],
+        ['Hotels, Cabins, Apartments, Bed & Breakfast', true, true],
+        ['Restaurents, Cafes, Local food etc', true, true],
+        ['Sightseeing tours, Guides, Boat/equipment rental', true, true],
+        ['Museums, Suvenirs', false, true],
+        ['Stores', false, true],
       ],
     }),
   }

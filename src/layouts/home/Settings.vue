@@ -83,39 +83,6 @@
         </base-btn>
 
         <v-divider class="my-6" />
-
-        <base-btn
-          block
-          href="https://store.vuetifyjs.com/products/zero-theme-free/?ref=vtyd-settings"
-          class="mb-6"
-          color="accent"
-          target="_blank"
-        >
-          Free Download
-        </base-btn>
-
-        <v-divider class="my-6" />
-
-        <base-img
-          class="mx-auto mb-6"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-light.png"
-          width="88"
-        />
-
-        <div class="text-center">
-          <base-btn
-            :tile="false"
-            :to="{ name: 'Pro' }"
-            rounded
-            @click="menu = false"
-          >
-            Go Pro
-
-            <v-icon right>
-              mdi-rocket
-            </v-icon>
-          </base-btn>
-        </div>
       </v-card-text>
     </v-card>
   </v-menu>

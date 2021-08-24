@@ -6,10 +6,10 @@
 
 <script>
   export default {
-    name: 'App',
+    name: 'Norway',
     metaInfo: {
-      title: 'App',
-      titleTemplate: '%s | Zero Pro',
+      title: 'Norway',
+      titleTemplate: '%s | ProofsOfNorway',
       htmlAttrs: { lang: 'en' },
       meta: [
         { charset: 'utf-8' },

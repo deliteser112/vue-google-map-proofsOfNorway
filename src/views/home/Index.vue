@@ -16,11 +16,12 @@
     mixins: [
       LoadSections([
         'hero',
-        'theme-features',
+        'service-features',
         'features',
         'affiliates',
         'social-media',
-        'pro-features',
+        'comparison',
+        'contact-us',
       ]),
     ],
 

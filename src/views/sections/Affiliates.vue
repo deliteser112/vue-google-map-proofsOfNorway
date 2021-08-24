@@ -4,7 +4,7 @@
     space="36"
   >
     <v-container>
-      <base-section-heading title="Who's using Zero?" />
+      <base-section-heading title="Who's using ProofsOfWorld?" />
 
       <v-slide-group>
         <template v-for="n in 6">
@@ -13,7 +13,7 @@
             class="align-self-center"
           >
             <base-img
-              :src="require(`@/assets/logo-${n}-${$vuetify.theme.isDark ? 'dark' : 'light'}.png`)"
+              :src="require(`@/assets/images/logo-${n}-${$vuetify.theme.isDark ? 'dark' : 'light'}.png`)"
               color="grey"
               contain
               height="40"

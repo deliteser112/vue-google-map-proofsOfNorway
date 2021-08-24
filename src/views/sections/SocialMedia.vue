@@ -18,11 +18,11 @@
 
       <a
         class="d-inline-block mb-8"
-        href="https://vuetifyjs.com"
+        href="https://www.tendens.tech/"
         style="text-decoration: none;"
         target="_blank"
       >
-        https://vuetifyjs.com
+        https://www.tendens.tech/
       </a>
 
       <div class="py-4" />
@@ -30,7 +30,7 @@
       <v-btn
         class="font-weight-bold"
         color="white"
-        href="https://twitter.com/vuetifyjs"
+        href="https://www.tendens.tech/"
         light
         min-width="168"
         target="_blank"

@@ -6,20 +6,20 @@
   import LoadSections from '@/mixins/load-sections'
 
   export default {
-    name: 'Pro',
+    name: 'Map',
 
-    metaInfo: { title: 'Pro Features' },
+    metaInfo: { title: 'Map' },
 
     extends: View,
 
     mixins: [
-      LoadSections(['pro-features']),
+      LoadSections(['map-view']),
     ],
 
     props: {
       id: {
         type: String,
-        default: 'pro',
+        default: 'maps',
       },
     },
   }

@@ -36,22 +36,22 @@
       cards: [
         {
           icon: 'mdi-keyboard-outline',
-          title: 'Trendy Design',
+          title: 'attractions',
           text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
         },
         {
           icon: 'mdi-camera-outline',
-          title: 'Photography',
+          title: 'landmarks',
           text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
         },
         {
           icon: 'mdi-pencil-outline',
-          title: 'Brand Making',
+          title: 'specialties ',
           text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
         },
         {
           icon: 'mdi-puzzle-outline',
-          title: '24/7 Support',
+          title: 'ranked pictures',
           text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
         },
       ],
